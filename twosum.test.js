@@ -13,3 +13,10 @@ test("should return array that contains index [1, 2] that sum up to 6", () => {
     var result = [1,2];
     expect(twosum(nums, target)).toEqual(result);
 });
+
+test("should return array that contains index [0, 1] that sum up to 6", () => {
+    var nums = [3, 3];
+    var target = 6;
+    var result = [0, 1];
+    expect(twosum(nums, target)).toEqual(result);
+})
